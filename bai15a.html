@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <fieldset>
+        <legend>Your message</legend>
+        <table>
+            <tr>
+                <td><label for="emailTo">To</label></td>
+                <td><input type="text" name="txtTo" readonly="readonly" id="emailTo" size="20" value="Example Cafe" /></td>
+            </tr>
+            <tr>
+                <td><label for="emailForm">Your email</label></td>
+                <td><input type="text" name="txtForm" id="emailForm" size="20" tabindex="1" maxlength="250" /></td>
+            </tr>
+            <tr>
+                <td><label for="emailBody">Message</label></td>
+                <td><textarea name="txtBody" id="emailBody" rows="8" cols="50"></textarea></td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>How you found us</legend>
+        <table>
+            <tr>
+                <td>How did you hear of us</td>
+                <td>
+                    <select>
+                        <option>a</option>
+                        <option>b</option>
+                        <option>c</option>
+                        <option>d</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Newsletter</td>
+                <td><input type="checkbox" />Ensure this is checked if you would like to receive email updates</td>
+            </tr>
+        </table>
+    </fieldset>
+    <button>Send message</button>
+</body>
+</html>
